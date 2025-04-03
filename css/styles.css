@@ -1,0 +1,109 @@
+body {
+    font-family: "Roboto", sans-serif
+    font-weight: 400;
+    font-size: 16px;
+    font-weight: medium;
+    color: #2e2f42;
+    background-color: white ;
+    line-height: 1.5;
+}
+
+
+.page-nav .link {
+    color:#2e2f42;
+    background-color: white;
+    font-weight: regular;
+}
+
+.page-nav .link:hover,
+.page-nav .link:focus {
+    color: #404bbf;
+}
+
+.page-contacts .link {
+    color:#2e2f42;
+    background-color: white;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+.page-contacts .link:hover,
+.page-contacts .link:focus
+ {
+    color: #404bbf;
+}
+.page span {
+    color: #4d5ae5;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+}
+.page a {
+    color: #2e2f42;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+}
+
+.hero {
+    color:white;
+    background-color: #2e2f42;
+   
+}
+.hero .link {
+    color:#2e2f42;
+    background-color: #4d5ae5;
+    
+}
+.hero .link:hover,
+.hero .link:focus {
+    color:#404bbf;
+}
+button {
+    cursor: pointer;
+}
+
+
+.portfolio-list {
+    color:#2e2f42;
+    background-color: white;
+
+
+}
+
+.footer {
+    background-color: #2e2f42;
+    width: 1440px;
+    height: 312px;
+}
+.footer span {
+    color: #4d5ae5;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+}
+
+.footer a {
+    color: #f4f4fd;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+}
+.footer p{
+    color: #f4f4fd;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
