@@ -1,8 +1,8 @@
 body {
-    font-family: "Roboto", sans-serif
+    font-family: "Roboto", "Raleway", sans-serif
     font-weight: 400;
     font-size: 16px;
-    font-weight: medium;
+    font-weight: 500;
     color: #2e2f42;
     background-color: white ;
     line-height: 1.5;
@@ -12,7 +12,7 @@ body {
 .page-nav .link {
     color:#2e2f42;
     background-color: white;
-    font-weight: regular;
+    font-weight: 400;
 }
 
 .page-nav .link:hover,
@@ -46,18 +46,18 @@ body {
     line-height: 1.16667;
 }
 
-.hero {
+.top {
     color:white;
     background-color: #2e2f42;
    
 }
-.hero .link {
-    color:#2e2f42;
+.top .link {
+    color:white;
     background-color: #4d5ae5;
     
 }
-.hero .link:hover,
-.hero .link:focus {
+.top .button:hover,
+.top .button:focus {
     color:#404bbf;
 }
 button {
@@ -94,6 +94,7 @@ button {
     color: #f4f4fd;
     font-weight: 400;
     font-size: 16px;
+    
 
 }
 
