@@ -1,9 +1,8 @@
 body {
-    font-family: "Roboto", "Raleway", sans-serif
-    font-weight: 400;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
-    color: #2e2f42;
+    color: #434455;
     background-color: white ;
     line-height: 1.5;
 }
@@ -12,24 +11,39 @@ body {
 .page-nav .link {
     color:#2e2f42;
     background-color: white;
-    font-weight: 400;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.page logo {
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
 }
 
+.page logo studio {
+    color: #2E2F42;
+}
 .page-nav .link:hover,
 .page-nav .link:focus {
     color: #404bbf;
 }
-
-.page-contacts .link {
-    color:#2e2f42;
+ .contact {
+    font-style: normal;
+ }
+.contacts .link {
+    color:#434455;
     background-color: white;
     font-weight: 500;
     font-size: 16px;
+    letter-spacing: 0.02em;
+
 }
 
-
-.page-contacts .link:hover,
-.page-contacts .link:focus
+.contacts .link:hover,
+.contacts .link:focus
  {
     color: #404bbf;
 }
@@ -51,6 +65,12 @@ body {
     background-color: #2e2f42;
    
 }
+.businnes {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
 .top .link {
     color:white;
     background-color: #4d5ae5;
@@ -58,13 +78,54 @@ body {
 }
 .top .button:hover,
 .top .button:focus {
-    color:#404bbf;
+    color:#404BBF;
 }
 button {
     cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
+.our {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.text {
+    color: #434455;
+}
 
+.team {
+    background-color: #F4F4FD;
+}
+.top_title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.mark {
+    background-color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+
+}
+.titel {
+    background-color: #FFFFFF;
+}
+.text {
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
 .portfolio-list {
     color:#2e2f42;
     background-color: white;
@@ -94,7 +155,7 @@ button {
     color: #f4f4fd;
     font-weight: 400;
     font-size: 16px;
-    
+    letter-spacing: 0.02em
 
 }
 
